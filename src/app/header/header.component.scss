@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 30px;
+  .logo {
+    display: flex;
+
+    .purpleText {
+      color: #7456ff;
+    }
+  }
+  padding-left: 20px;
+
+  .linkWebsite {
+    text-decoration: none;
+    color: #191919;
+    display: flex;
+  }
+  .linkWebsite:hover {
+    border-bottom: 3px solid #7456ff;
+  }
+}

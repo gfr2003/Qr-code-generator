@@ -1,13 +1,15 @@
+<app-header></app-header>
 <div class="container">
-  <h1 class="title">Gerador de Código QR</h1>
-  <div class="input-container">
+  <div class="leftContainer">
+    <h1 class="title">Create Your QR Code in Just a Few Clicks</h1>
+    <p>Paste a url or enter text to create a QR code</p>
     <input
       type="text"
-      placeholder="Insira o link aqui"
+      placeholder="Insert link here"
       id="link"
       class="input-field"
     />
-    <button (click)="generateQr()" class="generate-button">Gerar</button>
+    <button (click)="generateQr()" class="generate-button">Generate</button>
   </div>
   <div class="qr-container">
     <img *ngIf="qrPath" [src]="qrPath" alt="" class="qr-image" />
