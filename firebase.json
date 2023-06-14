@@ -1,0 +1,6 @@
+{
+  "hosting": {
+    "public": "dist/qr-code-generator",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+  }
+}
