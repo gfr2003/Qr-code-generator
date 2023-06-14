@@ -1,7 +1,7 @@
 # QrCodeGenerator
 
 Angular version 14.1.3.
-link website: `https://qr-code-generator-b0328.web.app`
+link website: [https://qr-code-generator-b0328.web.app](https://qr-code-generator-b0328.web.app)
 
 ## Development server
 
